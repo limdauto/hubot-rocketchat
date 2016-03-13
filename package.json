@@ -5,16 +5,20 @@
     "name": "Rocket.Chat",
     "url": "http://rocket.chat/"
   },
-  "contributors": [{
-    "name": "Sing Li",
-    "email": "sing.li@rocket.chat"
-  }, {
-    "name": "Gabriel Engel",
-    "email": "gabriel.engel@rocket.chat"
-  }, {
-    "name": "Aaron Ogle",
-    "email": "aaron.olge@rocket.chat"
-  }],
+  "contributors": [
+    {
+      "name": "Sing Li",
+      "email": "sing.li@rocket.chat"
+    },
+    {
+      "name": "Gabriel Engel",
+      "email": "gabriel.engel@rocket.chat"
+    },
+    {
+      "name": "Aaron Ogle",
+      "email": "aaron.olge@rocket.chat"
+    }
+  ],
   "description": "Hubot Rocket.Chat Adapter",
   "keywords": [
     "hubot",
@@ -38,8 +42,9 @@
   "main": "./src/rocketchat",
   "dependencies": {
     "asteroid": "git://github.com/RocketChat/asteroid.git",
+    "lru-cache": "~4.0.0",
     "parent-require": "^1.0.0",
-    "q": "^1.4.1",
-    "lru-cache": "~4.0.0"
+    "pg": "^4.5.1",
+    "q": "^1.4.1"
   }
 }
